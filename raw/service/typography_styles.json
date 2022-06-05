@@ -97,16 +97,7 @@
     },
     "lead": {
       "lead": {
-        "value": {
-          "fontFamily": "{fontFamilies.text}",
-          "fontWeight": "{fontWeights.500}",
-          "lineHeight": "{typography_common-tokens.lineHeights.4}",
-          "fontSize": "$fontSize.5",
-          "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
-          "textCase": "$textCase.none",
-          "textDecoration": "$textDecoration.none"
-        },
+        "value": "Lead.Lead",
         "type": "typography"
       }
     },
