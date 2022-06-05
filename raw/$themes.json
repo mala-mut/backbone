@@ -4,7 +4,9 @@
     "name": "service",
     "selectedTokenSets": {
       "colors": "source",
-      "typography": "source"
+      "typography": "source",
+      "service/colors": "source",
+      "service/typography": "source"
     },
     "$figmaStyleReferences": {}
   }
