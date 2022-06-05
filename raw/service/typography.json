@@ -209,14 +209,14 @@
   "lead": {
     "lead": {
       "value": {
-        "fontFamily": "$fontFamilies.manrope",
-        "fontWeight": "$fontWeights.manrope-2",
+        "fontFamily": "$typographyCommon.fontFamilies.text",
+        "fontWeight": "$typographyCommon.fontWeights.500",
         "lineHeight": "{typographyCommon.lineHeights.4}",
-        "fontSize": "$fontSize.5",
-        "letterSpacing": "$letterSpacing.0",
-        "paragraphSpacing": "$paragraphSpacing.0",
-        "textCase": "$textCase.none",
-        "textDecoration": "$textDecoration.none"
+        "fontSize": "$typographyCommon.fontSize.5",
+        "letterSpacing": "$typographyCommon.letterSpacing.0",
+        "paragraphSpacing": "$typographyCommon.paragraphSpacing.0",
+        "textCase": "",
+        "textDecoration": ""
       },
       "type": "typography"
     }
