@@ -1,1 +1,110 @@
-{}
+{
+  "background": {
+    "primary": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#f3f3f3",
+      "type": "color"
+    },
+    "tertiary": {
+      "value": "#ebebeb",
+      "type": "color"
+    },
+    "neutral": {
+      "value": "#a7a7a7",
+      "type": "color"
+    },
+    "primary_inverted": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "secondary_inverted": {
+      "value": "#1a1a1a",
+      "type": "color"
+    },
+    "tertiary_inverted": {
+      "value": "#2b2b2b",
+      "type": "color"
+    },
+    "accent": {
+      "value": "#005bff",
+      "type": "color"
+    },
+    "violet": {
+      "value": "#5b51de",
+      "type": "color"
+    },
+    "blue": {
+      "value": "#0096ff",
+      "type": "color"
+    },
+    "green": {
+      "value": "#10c44c",
+      "type": "color"
+    },
+    "orange": {
+      "value": "#ffa800",
+      "type": "color"
+    },
+    "red": {
+      "value": "#f53c14",
+      "type": "color"
+    },
+    "pink": {
+      "value": "#fc7ca2",
+      "type": "color"
+    }
+  },
+  "text": {
+    "primary": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#00000073",
+      "type": "color"
+    },
+    "tertiary": {
+      "value": "#00000033",
+      "type": "color"
+    },
+    "primary_inverted": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "secondary_inverted": {
+      "value": "#ffffff73",
+      "type": "color"
+    },
+    "tertiary_inverted": {
+      "value": "#ffffff33",
+      "type": "color"
+    },
+    "accent": {
+      "value": "#005bff",
+      "type": "color"
+    },
+    "violet": {
+      "value": "#5b51de",
+      "type": "color"
+    },
+    "blue": {
+      "value": "#0096ff",
+      "type": "color"
+    },
+    "green": {
+      "value": "#10c44c",
+      "type": "color"
+    },
+    "orange": {
+      "value": "#ffa800",
+      "type": "color"
+    },
+    "red": {
+      "value": "#f53c14",
+      "type": "color"
+    }
+  }
+}
