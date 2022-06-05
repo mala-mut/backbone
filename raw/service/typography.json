@@ -180,7 +180,7 @@
       "type": "typography"
     }
   },
-  "paragraph": {
+  "body": {
     "primary": {
       "value": {
         "fontFamily": "$fontFamilies.manrope",
