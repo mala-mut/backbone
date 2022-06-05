@@ -100,7 +100,7 @@
         "value": {
           "fontFamily": "{fontFamilies.text}",
           "fontWeight": "{fontWeights.500}",
-          "lineHeight": "$lineHeights.4",
+          "lineHeight": "{typography_common-tokens.lineHeights.4}",
           "fontSize": "$fontSize.5",
           "letterSpacing": "$letterSpacing.0",
           "paragraphSpacing": "$paragraphSpacing.0",
