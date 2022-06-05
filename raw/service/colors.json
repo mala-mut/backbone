@@ -1,6 +1,6 @@
 {
   "Background": {
-    "Primary": {
+    "PrimaryGo": {
       "value": "#ffffff",
       "type": "color"
     },
