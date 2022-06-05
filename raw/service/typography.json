@@ -182,7 +182,7 @@
   "Body": {
     "Body-Primary": {
       "value": {
-        "fontFamily": "$fontFamilies.Manrope",
+        "fontFamily": "{fontFamilies.Manrope}",
         "fontWeight": "{fontWeights.450}",
         "lineHeight": "{lineHeights.500}",
         "fontSize": "{fontSize.500}",
@@ -195,7 +195,7 @@
     },
     "Body-Primary-Accent": {
       "value": {
-        "fontFamily": "$fontFamilies.Manrope",
+        "fontFamily": "{fontFamilies.Manrope}",
         "fontWeight": "{fontWeights.600}",
         "lineHeight": "{lineHeights.500}",
         "fontSize": "{fontSize.500}",
@@ -221,7 +221,7 @@
     },
     "Body-Secondary-Accent": {
       "value": {
-        "fontFamily": "$fontFamilies.Manrope",
+        "fontFamily": "{fontFamilies.Manrope}",
         "fontWeight": "{fontWeights.600}",
         "lineHeight": "{lineHeights.400}",
         "fontSize": "{fontSize.400}",
