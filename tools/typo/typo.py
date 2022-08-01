@@ -5,7 +5,7 @@ import json
 import os
 
 dirname = os.path.dirname(__file__)
-path_out = 'output/typography.json'
+path_out = '../../raw/typography.json'
 
 # Text-case options
 TEXT_CASE = {
