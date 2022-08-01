@@ -44,6 +44,11 @@ for level in config.BODY_SIZES:
         for key, value in raw_base_style.items():
             style_dict.update(tools.make_token(value, key))
 
+        style_dict = {
+            'value': style_dict,
+            'type': 'typography'
+        }
+
         try:
             typography['typography'][style].update({level: style_dict})
         except AttributeError:
