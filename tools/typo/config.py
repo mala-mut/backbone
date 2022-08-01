@@ -20,7 +20,7 @@ BODY = {
     'font': FONT_FAMILIES[0],
     'font_size': 16,
     'line_height': 24,
-    'letter_spacing': 1.4,
+    'letter_spacing': '1.4%',
     'paragraph_spacing': 8,
 }
 
@@ -46,4 +46,9 @@ BODY_STYLES = {
 
 
 # 5. Будут ли в проекте таблицы и ячейки?
-# TABULAR = True
+TABULAR = True
+DENSE = True
+SPARSE = True
+
+DENSE_LINE_HEIGHT_DECREMENT = 4
+SPARSE_LINE_HEIGHT_INCREMENT = 4

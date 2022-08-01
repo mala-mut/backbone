@@ -1,7 +1,7 @@
 {
   "typography": {
     "body": {
-      "500": {
+      "600": {
         "value": {
           "fontFamily": {
             "value": "Manrope",
@@ -12,15 +12,15 @@
             "type": "fontWeights"
           },
           "fontSize": {
-            "value": 16,
+            "value": 18,
             "type": "fontSizes"
           },
           "lineHeight": {
-            "value": 24,
+            "value": 28,
             "type": "lineHeights"
           },
           "letterSpacing": {
-            "value": 1.4,
+            "value": "1.4%",
             "type": "letterSpacing"
           },
           "paragraphSpacing": {
@@ -42,7 +42,7 @@
         },
         "type": "typography"
       },
-      "600": {
+      "500": {
         "value": {
           "fontFamily": {
             "value": "Manrope",
@@ -53,15 +53,15 @@
             "type": "fontWeights"
           },
           "fontSize": {
-            "value": 18,
+            "value": 16,
             "type": "fontSizes"
           },
           "lineHeight": {
-            "value": 28,
+            "value": 24,
             "type": "lineHeights"
           },
           "letterSpacing": {
-            "value": 1.4,
+            "value": "1.4%",
             "type": "letterSpacing"
           },
           "paragraphSpacing": {
@@ -102,7 +102,7 @@
             "type": "lineHeights"
           },
           "letterSpacing": {
-            "value": 1.4,
+            "value": "1.4%",
             "type": "letterSpacing"
           },
           "paragraphSpacing": {
@@ -126,7 +126,7 @@
       }
     },
     "body-accent": {
-      "500": {
+      "600": {
         "value": {
           "fontFamily": {
             "value": "Manrope",
@@ -137,15 +137,15 @@
             "type": "fontWeights"
           },
           "fontSize": {
-            "value": 16,
+            "value": 18,
             "type": "fontSizes"
           },
           "lineHeight": {
-            "value": 24,
+            "value": 28,
             "type": "lineHeights"
           },
           "letterSpacing": {
-            "value": 1.4,
+            "value": "1.4%",
             "type": "letterSpacing"
           },
           "paragraphSpacing": {
@@ -167,7 +167,7 @@
         },
         "type": "typography"
       },
-      "600": {
+      "500": {
         "value": {
           "fontFamily": {
             "value": "Manrope",
@@ -178,15 +178,15 @@
             "type": "fontWeights"
           },
           "fontSize": {
-            "value": 18,
+            "value": 16,
             "type": "fontSizes"
           },
           "lineHeight": {
-            "value": 28,
+            "value": 24,
             "type": "lineHeights"
           },
           "letterSpacing": {
-            "value": 1.4,
+            "value": "1.4%",
             "type": "letterSpacing"
           },
           "paragraphSpacing": {
@@ -227,7 +227,7 @@
             "type": "lineHeights"
           },
           "letterSpacing": {
-            "value": 1.4,
+            "value": "1.4%",
             "type": "letterSpacing"
           },
           "paragraphSpacing": {

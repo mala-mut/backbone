@@ -22,6 +22,9 @@ base_style['text_decoration'] = params.TEXT_DECORATION['none']
 body_styles = list(config.BODY_STYLES.keys())
 typography = {'typography': dict.fromkeys(body_styles)}
 
+
+# Generating body styles
+
 for level in config.BODY_SIZES:
     for style in body_styles:
         style_dict = dict()
@@ -54,6 +57,8 @@ for level in config.BODY_SIZES:
         except AttributeError:
             typography['typography'][style] = {level: style_dict}
 
+
+# Dumping tokens for FT
 
 with open(os.path.join(dirname, path_out), 'w') as outfile:
     json.dump(typography, outfile)
