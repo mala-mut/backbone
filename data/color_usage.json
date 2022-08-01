@@ -1,0 +1,696 @@
+{
+  "core.white": [
+    "static.text.light-key",
+    "static.bg.light-key",
+    "static.graphic.light-key",
+    "light.layer.floor-1",
+    "light.layer.floor-2",
+    "light.layer.floor-3",
+    "light.graphic.key-inverted",
+    "dark.graphic.key",
+    "dark.layer.floor-1-inverted",
+    "dark.layer.floor-2-inverted",
+    "dark.layer.floor-3-inverted"
+  ],
+  "core.black": [
+    "static.text.dark-key",
+    "static.text.primary-on-light",
+    "static.bg.dark-key",
+    "static.graphic.dark-key",
+    "light.text.primary",
+    "light.graphic.key",
+    "light.bg.primary-inverted",
+    "light.layer.floor-0-inverted",
+    "dark.bg.primary",
+    "dark.layer.floor-0",
+    "dark.text.primary-inverted",
+    "dark.graphic.key-inverted",
+    "light.text.premium",
+    "light.graphic.premium",
+    "light.text-active.premium",
+    "light.graphic-active.premium",
+    "light.bg.premium-primary-inverted",
+    "dark.bg.premium-primary",
+    "dark.text.premium-inverted",
+    "dark.graphic.premium-inverted",
+    "dark.text-active.premium-inverted",
+    "dark.graphic-active.premium-inverted"
+  ],
+  "core.white-transparent.25": [
+    "static.clear.light-key-100"
+  ],
+  "core.white-transparent.50": [
+    "static.graphic.disabled-on-dark",
+    "light.graphic.disabled-inverted",
+    "light.bg.secondary-inverted",
+    "dark.graphic.disabled",
+    "dark.bg.secondary",
+    "light.bg.premium-secondary-inverted",
+    "dark.bg.premium-secondary"
+  ],
+  "core.white-transparent.100": [
+    "light.layer.surface-inverted",
+    "dark.layer.surface"
+  ],
+  "core.white-transparent.120": [
+    "static.graphic.neutral-on-dark",
+    "static.clear.light-key-300",
+    "light.graphic.neutral-inverted",
+    "light.bg-active.secondary-inverted",
+    "dark.graphic.neutral",
+    "dark.bg-active.secondary",
+    "light.bg-active.premium-secondary-inverted",
+    "dark.bg-active.premium-secondary"
+  ],
+  "core.white-transparent.160": [
+    "static.clear.light-key-400"
+  ],
+  "core.white-transparent.200": [
+    "light.layer-active.surface-inverted",
+    "dark.layer-active.surface"
+  ],
+  "core.white-transparent.300": [
+    "static.graphic.tertiary-on-dark",
+    "light.graphic.tertiary-inverted",
+    "dark.graphic.tertiary"
+  ],
+  "core.white-transparent.320": [
+    "static.clear.light-key-500"
+  ],
+  "core.white-transparent.400": [
+    "static.text.tertiary-on-dark",
+    "light.text.tertiary-inverted",
+    "dark.text.tertiary"
+  ],
+  "core.white-transparent.480": [
+    "static.clear.light-key-600"
+  ],
+  "core.white-transparent.500": [
+    "static.graphic.secondary-on-dark",
+    "light.graphic.secondary-inverted",
+    "dark.graphic.secondary"
+  ],
+  "core.white-transparent.600": [
+    "static.text.secondary-on-dark",
+    "light.text.secondary-inverted",
+    "dark.text.secondary"
+  ],
+  "core.white-transparent.640": [
+    "static.clear.light-key-700"
+  ],
+  "core.white-transparent.800": [
+    "static.clear.light-key-800"
+  ],
+  "core.black-transparent.25": [
+    "static.clear.dark-key-100"
+  ],
+  "core.black-transparent.100": [
+    "static.clear.dark-key-200"
+  ],
+  "core.black-transparent.120": [
+    "static.clear.dark-key-300"
+  ],
+  "core.black-transparent.160": [
+    "static.clear.dark-key-400"
+  ],
+  "core.black-transparent.320": [
+    "static.clear.dark-key-500"
+  ],
+  "core.black-transparent.480": [
+    "static.clear.dark-key-600"
+  ],
+  "core.black-transparent.600": [
+    "light.layer.overlay-dimming-inverted",
+    "dark.layer.overlay-dimming"
+  ],
+  "core.black-transparent.640": [
+    "static.clear.dark-key-700"
+  ],
+  "core.black-transparent.800": [
+    "static.clear.dark-key-800"
+  ],
+  "core.gray.100": [
+    "static.text.primary-on-dark",
+    "light.bg.primary",
+    "light.layer.floor-0",
+    "light.text.primary-inverted",
+    "dark.text.primary",
+    "dark.bg.primary-inverted",
+    "dark.layer.floor-0-inverted",
+    "light.bg.premium-primary",
+    "light.text.premium-inverted",
+    "light.graphic.premium-inverted",
+    "light.text-active.premium-inverted",
+    "light.graphic-active.premium-inverted",
+    "dark.text.premium",
+    "dark.graphic.premium",
+    "dark.text-active.premium",
+    "dark.graphic-active.premium",
+    "dark.bg.premium-primary-inverted"
+  ],
+  "core.gray.200": [
+    "light.layer-active.floor-1",
+    "light.layer-active.floor-2",
+    "light.layer-active.floor-3",
+    "dark.layer-active.floor-1-inverted",
+    "dark.layer-active.floor-2-inverted",
+    "dark.layer-active.floor-3-inverted",
+    "light.bg-active.premium-primary",
+    "dark.bg-active.premium-primary-inverted"
+  ],
+  "core.gray.300": [
+    "light.bg-active.primary",
+    "dark.bg-active.primary-inverted"
+  ],
+  "core.gray.750": [
+    "light.layer-active.floor-3-inverted",
+    "dark.layer-active.floor-3"
+  ],
+  "core.gray.800": [
+    "light.layer.floor-3-inverted",
+    "light.layer-active.floor-2-inverted",
+    "dark.layer.floor-3",
+    "dark.layer-active.floor-2"
+  ],
+  "core.gray.850": [
+    "light.layer.floor-2-inverted",
+    "light.layer-active.floor-1-inverted",
+    "dark.layer.floor-2",
+    "dark.layer-active.floor-1"
+  ],
+  "core.gray.900": [
+    "light.layer.floor-1-inverted",
+    "dark.layer.floor-1"
+  ],
+  "core.gray-transparent.100": [
+    "static.graphic.primary-on-dark",
+    "light.graphic.primary-inverted",
+    "dark.graphic.primary"
+  ],
+  "core.gray-transparent.200": [
+    "light.layer.overlay-paranja-inverted",
+    "dark.layer.overlay-paranja"
+  ],
+  "core.gray-transparent.500": [
+    "light.layer.overlay-dimming",
+    "dark.layer.overlay-dimming-inverted"
+  ],
+  "core.carbon.100": [],
+  "core.carbon.700": [
+    "light.bg-active.primary-inverted",
+    "dark.bg-active.primary",
+    "light.bg-active.premium-primary-inverted",
+    "dark.bg-active.premium-primary"
+  ],
+  "core.carbon.900": [
+    "static.graphic.primary-on-light",
+    "light.graphic.primary",
+    "dark.graphic.primary-inverted"
+  ],
+  "core.carbon-transparent.40": [
+    "static.graphic.disabled-on-light",
+    "light.graphic.disabled",
+    "dark.graphic.disabled-inverted"
+  ],
+  "core.carbon-transparent.50": [
+    "static.graphic.neutral-on-light",
+    "light.graphic.neutral",
+    "dark.graphic.neutral-inverted"
+  ],
+  "core.carbon-transparent.400": [],
+  "core.carbon-transparent.500": [
+    "light.layer-active.surface",
+    "dark.layer-active.surface-inverted",
+    "light.bg-active.premium-secondary",
+    "dark.bg-active.premium-secondary-inverted"
+  ],
+  "core.carbon-transparent.600": [
+    "static.text.tertiary-on-light",
+    "static.graphic.tertiary-on-light",
+    "light.text.tertiary",
+    "light.graphic.tertiary",
+    "dark.text.tertiary-inverted",
+    "dark.graphic.tertiary-inverted"
+  ],
+  "core.carbon-transparent.700": [],
+  "core.carbon-transparent.800": [
+    "static.text.secondary-on-light",
+    "static.graphic.secondary-on-light",
+    "light.text.secondary",
+    "light.graphic.secondary",
+    "dark.text.secondary-inverted",
+    "dark.graphic.secondary-inverted"
+  ],
+  "core.blue.300": [
+    "light.text-active.action-inverted",
+    "dark.text-active.action"
+  ],
+  "core.blue.400": [
+    "static.text.action-on-dark",
+    "light.text.action-inverted",
+    "light.graphic.action-primary-inverted",
+    "light.graphic-active.action-primary-inverted",
+    "dark.text.action",
+    "dark.graphic.action-primary",
+    "dark.graphic-active.action-primary"
+  ],
+  "core.blue.450": [
+    "light.bg-active.action-primary-inverted",
+    "dark.bg-active.action-primary"
+  ],
+  "core.blue.500": [
+    "static.text.action-on-light",
+    "light.text.action",
+    "light.graphic.action-primary",
+    "light.bg.action-primary",
+    "light.bg.action-primary-inverted",
+    "dark.bg.action-primary",
+    "dark.text.action-inverted",
+    "dark.graphic.action-primary-inverted",
+    "dark.bg.action-primary-inverted"
+  ],
+  "core.blue.600": [
+    "light.graphic-active.action-primary",
+    "light.bg-active.action-primary",
+    "dark.graphic-active.action-primary-inverted",
+    "dark.bg-active.action-primary-inverted"
+  ],
+  "core.blue.700": [
+    "light.text-active.action",
+    "dark.text-active.action-inverted"
+  ],
+  "core.blue.800": [],
+  "core.blue-transparent.100": [
+    "light.bg.secondary",
+    "light.layer.surface",
+    "light.layer.overlay-paranja",
+    "dark.bg.secondary-inverted",
+    "dark.layer.surface-inverted",
+    "dark.layer.overlay-paranja-inverted",
+    "light.bg.premium-secondary",
+    "dark.bg.premium-secondary-inverted"
+  ],
+  "core.blue-transparent.200": [
+    "light.bg-active.secondary",
+    "dark.bg-active.secondary-inverted"
+  ],
+  "core.blue-transparent.300": [
+    "light.bg.action-secondary",
+    "dark.bg.action-secondary-inverted"
+  ],
+  "core.blue-transparent.400": [
+    "light.bg-active.action-secondary",
+    "dark.bg-active.action-secondary-inverted"
+  ],
+  "core.blue-transparent.500": [
+    "light.bg.action-secondary-inverted",
+    "dark.bg.action-secondary"
+  ],
+  "core.blue-transparent.600": [
+    "light.bg-active.action-secondary-inverted",
+    "dark.bg-active.action-secondary"
+  ],
+  "core.red.300": [
+    "light.text.negative-inverted",
+    "light.graphic.negative-primary-inverted",
+    "light.text-active.negative-inverted",
+    "light.graphic-active.negative-primary-inverted",
+    "dark.text.negative",
+    "dark.graphic.negative-primary",
+    "dark.text-active.negative",
+    "dark.graphic-active.negative-primary"
+  ],
+  "core.red.400": [
+    "light.bg-active.negative-primary-inverted",
+    "dark.bg-active.negative-primary"
+  ],
+  "core.red.500": [
+    "light.text.negative",
+    "light.graphic.negative-primary",
+    "light.bg.negative-primary",
+    "light.bg.negative-primary-inverted",
+    "dark.bg.negative-primary",
+    "dark.text.negative-inverted",
+    "dark.graphic.negative-primary-inverted",
+    "dark.bg.negative-primary-inverted"
+  ],
+  "core.red.600": [
+    "light.text-active.negative",
+    "light.graphic-active.negative-primary",
+    "light.bg-active.negative-primary",
+    "dark.text-active.negative-inverted",
+    "dark.graphic-active.negative-primary-inverted",
+    "dark.bg-active.negative-primary-inverted"
+  ],
+  "core.red.700": [
+    "light.text-active.accent",
+    "dark.text-active.accent-inverted",
+    "light.text-active.express",
+    "dark.text-active.express-inverted"
+  ],
+  "core.red-transparent.300": [
+    "light.bg.negative-secondary",
+    "dark.bg.negative-secondary-inverted"
+  ],
+  "core.red-transparent.400": [
+    "light.bg-active.negative-secondary",
+    "dark.bg-active.negative-secondary-inverted"
+  ],
+  "core.red-transparent.500": [
+    "light.bg.negative-secondary-inverted",
+    "dark.bg.negative-secondary"
+  ],
+  "core.red-transparent.600": [
+    "light.bg-active.negative-secondary-inverted",
+    "dark.bg-active.negative-secondary"
+  ],
+  "core.rose.300": [],
+  "core.rose.400": [
+    "light.text.accent-inverted",
+    "light.graphic.accent-primary-inverted",
+    "light.text-active.accent-inverted",
+    "light.graphic-active.accent-primary-inverted",
+    "dark.text.accent",
+    "dark.graphic.accent-primary",
+    "dark.text-active.accent",
+    "dark.graphic-active.accent-primary",
+    "light.text.express-inverted",
+    "light.graphic.express-inverted",
+    "light.text-active.express-inverted",
+    "light.graphic-active.express-inverted",
+    "dark.text.express",
+    "dark.graphic.express",
+    "dark.text-active.express",
+    "dark.graphic-active.express"
+  ],
+  "core.rose.450": [
+    "light.bg-active.accent-primary-inverted",
+    "dark.bg-active.accent-primary",
+    "light.bg-active.express-primary-inverted",
+    "dark.bg-active.express-primary"
+  ],
+  "core.rose.500": [
+    "light.text.accent",
+    "light.graphic.accent-primary",
+    "light.bg.accent-primary",
+    "light.bg.accent-primary-inverted",
+    "dark.bg.accent-primary",
+    "dark.text.accent-inverted",
+    "dark.graphic.accent-primary-inverted",
+    "dark.bg.accent-primary-inverted",
+    "light.text.express",
+    "light.graphic.express",
+    "light.bg.express-primary",
+    "light.bg.express-primary-inverted",
+    "dark.bg.express-primary",
+    "dark.text.express-inverted",
+    "dark.graphic.express-inverted",
+    "dark.bg.express-primary-inverted"
+  ],
+  "core.rose.600": [
+    "light.graphic-active.accent-primary",
+    "light.bg-active.accent-primary",
+    "dark.graphic-active.accent-primary-inverted",
+    "dark.bg-active.accent-primary-inverted",
+    "light.graphic-active.express",
+    "light.bg-active.express-primary",
+    "dark.graphic-active.express-inverted",
+    "dark.bg-active.express-primary-inverted"
+  ],
+  "core.rose-transparent.300": [
+    "light.bg.accent-secondary",
+    "dark.bg.accent-secondary-inverted",
+    "light.bg.express-secondary",
+    "dark.bg.express-secondary-inverted"
+  ],
+  "core.rose-transparent.400": [
+    "light.bg-active.accent-secondary",
+    "dark.bg-active.accent-secondary-inverted",
+    "light.bg-active.express-secondary",
+    "dark.bg-active.express-secondary-inverted"
+  ],
+  "core.rose-transparent.500": [
+    "light.bg.accent-secondary-inverted",
+    "dark.bg.accent-secondary",
+    "light.bg.express-secondary-inverted",
+    "dark.bg.express-secondary"
+  ],
+  "core.rose-transparent.600": [
+    "light.bg-active.accent-secondary-inverted",
+    "dark.bg-active.accent-secondary",
+    "light.bg-active.express-secondary-inverted",
+    "dark.bg-active.express-secondary"
+  ],
+  "core.green.400": [
+    "light.text.positive-inverted",
+    "light.graphic.positive-primary-inverted",
+    "light.text-active.positive-inverted",
+    "light.graphic-active.positive-primary-inverted",
+    "dark.text.positive",
+    "dark.graphic.positive-primary",
+    "dark.text-active.positive",
+    "dark.graphic-active.positive-primary"
+  ],
+  "core.green.450": [
+    "light.bg-active.positive-primary-inverted",
+    "dark.bg-active.positive-primary"
+  ],
+  "core.green.500": [
+    "light.text.positive",
+    "light.graphic.positive-primary",
+    "light.bg.positive-primary",
+    "light.bg.positive-primary-inverted",
+    "dark.bg.positive-primary",
+    "dark.text.positive-inverted",
+    "dark.graphic.positive-primary-inverted",
+    "dark.bg.positive-primary-inverted"
+  ],
+  "core.green.600": [
+    "light.text-active.positive",
+    "light.graphic-active.positive-primary",
+    "light.bg-active.positive-primary",
+    "dark.text-active.positive-inverted",
+    "dark.graphic-active.positive-primary-inverted",
+    "dark.bg-active.positive-primary-inverted"
+  ],
+  "core.green-transparent.300": [
+    "light.bg.positive-secondary",
+    "dark.bg.positive-secondary-inverted"
+  ],
+  "core.green-transparent.400": [
+    "light.bg.positive-secondary-inverted",
+    "dark.bg.positive-secondary"
+  ],
+  "core.green-transparent.500": [
+    "light.bg-active.positive-secondary",
+    "dark.bg-active.positive-secondary-inverted"
+  ],
+  "core.green-transparent.600": [
+    "light.bg-active.positive-secondary-inverted",
+    "dark.bg-active.positive-secondary"
+  ],
+  "core.yellow.300": [
+    "light.text.warning-inverted",
+    "light.graphic.warning-primary-inverted",
+    "light.text-active.warning-inverted",
+    "light.graphic-active.warning-primary-inverted",
+    "dark.text.warning",
+    "dark.graphic.warning-primary",
+    "dark.text-active.warning",
+    "dark.graphic-active.warning-primary"
+  ],
+  "core.yellow.400": [
+    "light.graphic-active.rating",
+    "dark.graphic-active.rating-inverted"
+  ],
+  "core.yellow.450": [
+    "light.bg-active.warning-primary-inverted",
+    "dark.bg-active.warning-primary"
+  ],
+  "core.yellow.500": [
+    "light.bg.warning-primary",
+    "light.bg.warning-primary-inverted",
+    "dark.bg.warning-primary",
+    "dark.bg.warning-primary-inverted"
+  ],
+  "core.yellow.600": [
+    "light.text.warning",
+    "light.graphic.warning-primary",
+    "light.graphic.rating",
+    "light.graphic.rating-inverted",
+    "dark.graphic.rating",
+    "dark.text.warning-inverted",
+    "dark.graphic.warning-primary-inverted",
+    "dark.graphic.rating-inverted"
+  ],
+  "core.yellow.700": [
+    "light.text-active.warning",
+    "light.graphic-active.warning-primary",
+    "light.bg-active.warning-primary",
+    "light.graphic-active.rating-inverted",
+    "dark.graphic-active.rating",
+    "dark.text-active.warning-inverted",
+    "dark.graphic-active.warning-primary-inverted",
+    "dark.bg-active.warning-primary-inverted"
+  ],
+  "core.yellow-transparent.300": [
+    "light.bg.warning-secondary",
+    "dark.bg.warning-secondary-inverted"
+  ],
+  "core.yellow-transparent.400": [
+    "light.bg.warning-secondary-inverted",
+    "dark.bg.warning-secondary"
+  ],
+  "core.yellow-transparent.500": [
+    "light.bg-active.warning-secondary",
+    "light.bg-active.warning-secondary-inverted",
+    "dark.bg-active.warning-secondary",
+    "dark.bg-active.warning-secondary-inverted"
+  ],
+  "core.azure.200": [
+    "light.text.fresh-inverted",
+    "light.graphic.fresh-inverted",
+    "light.text-active.fresh-inverted",
+    "light.graphic-active.fresh-inverted",
+    "dark.text.fresh",
+    "dark.graphic.fresh",
+    "dark.text-active.fresh",
+    "dark.graphic-active.fresh"
+  ],
+  "core.azure.300": [
+    "light.bg-active.fresh-primary-inverted",
+    "dark.bg-active.fresh-primary"
+  ],
+  "core.azure.400": [
+    "light.graphic.fresh",
+    "light.bg.fresh-primary",
+    "light.bg.fresh-primary-inverted",
+    "dark.bg.fresh-primary",
+    "dark.graphic.fresh-inverted",
+    "dark.bg.fresh-primary-inverted"
+  ],
+  "core.azure.500": [
+    "light.text.fresh",
+    "dark.text.fresh-inverted"
+  ],
+  "core.azure.550": [
+    "light.graphic-active.fresh",
+    "dark.graphic-active.fresh-inverted"
+  ],
+  "core.azure.600": [
+    "light.bg-active.fresh-primary",
+    "dark.bg-active.fresh-primary-inverted"
+  ],
+  "core.azure.700": [
+    "light.text-active.fresh",
+    "dark.text-active.fresh-inverted"
+  ],
+  "core.azure-transparent.300": [
+    "light.bg.fresh-secondary",
+    "dark.bg.fresh-secondary-inverted"
+  ],
+  "core.azure-transparent.400": [
+    "light.bg.fresh-secondary-inverted",
+    "dark.bg.fresh-secondary"
+  ],
+  "core.azure-transparent.500": [
+    "light.bg-active.fresh-secondary",
+    "dark.bg-active.fresh-secondary-inverted"
+  ],
+  "core.azure-transparent.600": [
+    "light.bg-active.fresh-secondary-inverted",
+    "dark.bg-active.fresh-secondary"
+  ],
+  "core.violet.300": [
+    "light.text.marketing-inverted",
+    "light.graphic.marketing-inverted",
+    "light.text-active.marketing-inverted",
+    "light.graphic-active.marketing-inverted",
+    "dark.text.marketing",
+    "dark.graphic.marketing",
+    "dark.text-active.marketing",
+    "dark.graphic-active.marketing"
+  ],
+  "core.violet.400": [
+    "light.bg-active.marketing-primary-inverted",
+    "dark.bg-active.marketing-primary"
+  ],
+  "core.violet.500": [
+    "light.text.marketing",
+    "light.graphic.marketing",
+    "light.bg.marketing-primary",
+    "light.bg.marketing-primary-inverted",
+    "dark.bg.marketing-primary",
+    "dark.text.marketing-inverted",
+    "dark.graphic.marketing-inverted",
+    "dark.bg.marketing-primary-inverted"
+  ],
+  "core.violet.600": [
+    "light.graphic-active.marketing",
+    "light.bg-active.marketing-primary",
+    "dark.graphic-active.marketing-inverted",
+    "dark.bg-active.marketing-primary-inverted"
+  ],
+  "core.violet.700": [
+    "light.text-active.marketing",
+    "dark.text-active.marketing-inverted"
+  ],
+  "core.violet-transparent.300": [
+    "light.bg.marketing-secondary",
+    "dark.bg.marketing-secondary-inverted"
+  ],
+  "core.violet-transparent.400": [
+    "light.bg-active.marketing-secondary",
+    "dark.bg-active.marketing-secondary-inverted"
+  ],
+  "core.violet-transparent.500": [
+    "light.bg.marketing-secondary-inverted",
+    "dark.bg.marketing-secondary"
+  ],
+  "core.violet-transparent.600": [
+    "light.bg-active.marketing-secondary-inverted",
+    "dark.bg-active.marketing-secondary"
+  ],
+  "core.lime.400": [
+    "light.bg-active.bestprice-primary-inverted",
+    "dark.bg-active.bestprice-primary"
+  ],
+  "core.lime.500": [
+    "light.text.bestprice",
+    "light.graphic.bestprice",
+    "light.bg.bestprice-primary",
+    "light.text.bestprice-inverted",
+    "light.graphic.bestprice-inverted",
+    "light.text-active.bestprice-inverted",
+    "light.graphic-active.bestprice-inverted",
+    "light.bg.bestprice-primary-inverted",
+    "dark.text.bestprice",
+    "dark.graphic.bestprice",
+    "dark.text-active.bestprice",
+    "dark.graphic-active.bestprice",
+    "dark.bg.bestprice-primary",
+    "dark.text.bestprice-inverted",
+    "dark.graphic.bestprice-inverted",
+    "dark.bg.bestprice-primary-inverted"
+  ],
+  "core.lime.600": [
+    "light.text-active.bestprice",
+    "light.graphic-active.bestprice",
+    "light.bg-active.bestprice-primary",
+    "dark.text-active.bestprice-inverted",
+    "dark.graphic-active.bestprice-inverted",
+    "dark.bg-active.bestprice-primary-inverted"
+  ],
+  "core.lime-transparent.300": [
+    "light.bg.bestprice-secondary",
+    "light.bg.bestprice-secondary-inverted",
+    "dark.bg.bestprice-secondary",
+    "dark.bg.bestprice-secondary-inverted"
+  ],
+  "core.lime-transparent.400": [
+    "light.bg-active.bestprice-secondary",
+    "light.bg-active.bestprice-secondary-inverted",
+    "dark.bg-active.bestprice-secondary",
+    "dark.bg-active.bestprice-secondary-inverted"
+  ]
+}
