@@ -17,7 +17,6 @@ FONT_FAMILIES = [
 # 2. Каким будет основной наборный текст?
 BODY = {
     'font': FONT_FAMILIES[0],
-    'typeface': 'Medium',
     'font_size': 16,
     'line_height': 24,
     'letter_spacing': 1.4,
@@ -34,9 +33,12 @@ BODY_SIZES = {
 }
 
 
-# 4. Нужны ли акцентные начертания?
-BODY_ACCENT = {
-    'accent': {
+# 4. Какие начертания нужны для основного текста?
+BODY_STYLES = {
+    'body': {
+        'typeface': 'Medium',
+    },
+    'body-accent': {
         'typeface': 'Bold',
     },
 }

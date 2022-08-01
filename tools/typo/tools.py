@@ -1,3 +1,18 @@
+# TOKENS MODEL
+
+STYLE = {
+    'font': None,
+    'typeface': None,
+    'font_size': None,
+    'line_height': None,
+    'letter_spacing': None,
+    'paragraph_spacing': None,
+    'text_case': None,
+    'open_type': None,
+    'text_decoration': None,
+}
+
+
 # TOOLS FOR FIGMA TOKENS CONVERSION
 
 FT_TYPES = {
@@ -35,13 +50,35 @@ FT_TYPES = {
     },
 }
 
+CUSTOM_TYPES = {
+    'open_type': {
+        'name': 'openType',
+        'type': 'openType',
+    },
+}
 
-def make_ft_token(value, token_type):
-    # TODO: catch wrong types
+
+def make_token(value, token_type):
     # TODO: generate descriptions
-    return {
-        FT_TYPES[token_type]['name']: {
-            'value': value,
-            'type': FT_TYPES[token_type]['type']
-        }
-    }
+
+    token_systems = [FT_TYPES, CUSTOM_TYPES]
+
+    for token_system in token_systems:
+        try:
+            return {
+                token_system[token_type]['name']: {
+                    'value': value,
+                    'type': token_system[token_type]['type']
+                }
+            }
+        except KeyError:
+            if token_system == token_systems[-1]:
+                raise Exception(f'No such token: {token_type}')
+
+
+# TOOLS FOR GENERATING TOKENS
+
+def get_sizes(base_font_size, base_line_height, increment, size):
+    font_size = base_font_size + increment * size
+    line_height = base_line_height + increment * size * 2
+    return int(font_size), int(line_height)
