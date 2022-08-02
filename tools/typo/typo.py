@@ -27,7 +27,6 @@ typography = {'typography': dict.fromkeys(body_styles)}
 
 for level in config.BODY_SIZES:
     for style in body_styles:
-        style_dict = dict()
         raw_base_style = dict(base_style)
         size = (int(level) - 500) / 100
 
@@ -44,18 +43,30 @@ for level in config.BODY_SIZES:
         raw_base_style['typeface'] = config.BODY_STYLES[style]['typeface']
 
         # Generating FT for all values
-        for key, value in raw_base_style.items():
-            style_dict.update(tools.make_token(value, key))
-
-        style_dict = {
-            'value': style_dict,
-            'type': 'typography'
-        }
-
         try:
-            typography['typography'][style].update({level: style_dict})
+            typography['typography'][style].update(
+                tools.make_typography(level, raw_base_style))
         except AttributeError:
-            typography['typography'][style] = {level: style_dict}
+            typography['typography'][style] = dict(
+                tools.make_typography(level, raw_base_style))
+
+        if config.BODY_SPARSE:
+            raw_sparse_style = dict(raw_base_style)
+            raw_sparse_style['line_height'] += \
+                config.BODY_SPARSE_LINE_HEIGHT_INCREMENT
+
+            typography['typography'][style].update(
+                tools.make_typography(level + '-sparse', raw_sparse_style))
+
+        if config.BODY_DENSE:
+            raw_dense_style = dict(raw_base_style)
+            raw_dense_style['line_height'] -= \
+                config.BODY_DENSE_LINE_HEIGHT_DECREMENT
+            if config.BODY_TABULAR:
+                raw_dense_style['open_type'] = params.OPEN_TYPE['tabular']
+
+            typography['typography'][style].update(
+                tools.make_typography(level + '-dense', raw_dense_style))
 
 
 # Dumping tokens for FT

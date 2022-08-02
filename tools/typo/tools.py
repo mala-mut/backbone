@@ -76,6 +76,24 @@ def make_token(value, token_type):
                 raise Exception(f'No such token: {token_type}')
 
 
+def make_tokens(raw_styles):
+    style_dict = dict()
+
+    for key, value in raw_styles.items():
+        style_dict.update(make_token(value, key))
+
+    return style_dict
+
+
+def make_typography(level, raw_styles):
+    return {
+        level: {
+            'value': make_tokens(raw_styles),
+            'type': 'typography'
+        }
+    }
+
+
 # TOOLS FOR GENERATING TOKENS
 
 def get_sizes(base_font_size, base_line_height, increment, size):

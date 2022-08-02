@@ -17,5 +17,5 @@ TEXT_DECORATION = {
 # TODO: заполнить OT-features
 OPEN_TYPE = {
     'default': [],
-    'tabular': []
+    'tabular': ['tnum']
 }

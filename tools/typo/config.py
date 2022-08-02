@@ -46,9 +46,11 @@ BODY_STYLES = {
 
 
 # 5. Будут ли в проекте таблицы и ячейки?
-TABULAR = True
-DENSE = True
-SPARSE = True
+BODY_DENSE = True
+BODY_DENSE_LINE_HEIGHT_DECREMENT = 4
+BODY_TABULAR = True
 
-DENSE_LINE_HEIGHT_DECREMENT = 4
-SPARSE_LINE_HEIGHT_INCREMENT = 4
+
+# 6. Нужны ли в проекте наборные шрифты с более разреженным межстрочником?
+BODY_SPARSE = True
+BODY_SPARSE_LINE_HEIGHT_INCREMENT = 4
