@@ -2,74 +2,74 @@ import json
 import os
 
 import config
-import params
 import tools
 
 # Setting output folder with tokens
 dirname = os.path.dirname(__file__)
 path_out = '../../raw/typography.json'
 
-# Setting up base style to initialize everything else
-base_style = dict(tools.STYLE)
+typography = dict()
 
-for key, value in config.BODY.items():
-    base_style[key] = value
+# Looping over all typography categories
 
-base_style['text_case'] = params.TEXT_CASE['none']
-base_style['open_type'] = params.OPEN_TYPE['default']
-base_style['text_decoration'] = params.TEXT_DECORATION['none']
+for category, category_dict in config.TYPOGRAPHY_STRUCTURE.items():
+    base_style = dict(tools.STYLE)
 
-body_styles = list(config.BODY_STYLES.keys())
-typography = {'typography': dict.fromkeys(body_styles)}
+    # initializing base_style with 500 params
+    base_style['font'] = category_dict['font']
+    base_style['paragraph_spacing'] = category_dict['sizes'][
+        'paragraph_spacing'] * category_dict['sizes'][
+        'paragraph_spacing_increment']
+    base_style['text_case'] = category_dict['sizes']['text_case']
+    base_style['text_decoration'] = category_dict['sizes']['text_decoration']
+    base_style['open_type'] = category_dict['sizes']['open_type']
 
+    for style, style_dict in category_dict['styles'].items():
+        typography.update({style: {}})
+        base_style['typeface'] = style_dict['typeface']
+        for i, size in enumerate(category_dict['sizes']['size_pairs']):
+            level = (size - 500) / 100
 
-# Generating body styles
+            # Getting line heights, font sizes and increments
+            size_values = []
+            params = ('font_size', 'line_height', 'font_size_increment',
+                      'line_height_increment')
 
-for level in config.BODY_SIZES:
-    for style in body_styles:
-        raw_base_style = dict(base_style)
-        size = (int(level) - 500) / 100
+            for param in params:
+                size_values.append(tools.get_value(category_dict['sizes'][
+                    param], i))
 
-        # Getting values for font size and line height
-        raw_base_style['font_size'], raw_base_style['line_height'] = \
-            tools.get_sizes(
-                base_style['font_size'],
-                base_style['line_height'],
-                config.BODY_SIZE_INCREMENT,
-                size
-            )
+            # Getting tracking
+            base_style['tracking'] = tools.get_value(category_dict['sizes'][
+                'tracking'], i)
 
-        # Getting typeface
-        raw_base_style['typeface'] = config.BODY_STYLES[style]['typeface']
+            # Getting values for font size and line height
+            base_style['font_size'], base_style['line_height'] = \
+                tools.get_sizes(*size_values, level)
 
-        # Generating FT for all values
-        try:
-            typography['typography'][style].update(
-                tools.make_typography(level, raw_base_style))
-        except AttributeError:
-            typography['typography'][style] = dict(
-                tools.make_typography(level, raw_base_style))
+            # Generating FT for all values
+            try:
+                typography[style].update(
+                    tools.make_typography(size, base_style))
+            except AttributeError:
+                typography[style] = dict(
+                    tools.make_typography(size, base_style))
 
-        if config.BODY_SPARSE:
-            raw_sparse_style = dict(raw_base_style)
-            raw_sparse_style['line_height'] += \
-                config.BODY_SPARSE_LINE_HEIGHT_INCREMENT
+            # Checking for dense and sparse
+            for option in ['dense', 'sparse']:
+                if category_dict[option]['enabled'] and size not in \
+                        category_dict[option]['ignore_sizes']:
+                    option_style = dict(base_style)
+                    option_style['line_height'] = tools.get_value(
+                        category_dict[option]['line_height_increment'],
+                        i) + base_style['line_height']
 
-            typography['typography'][style].update(
-                tools.make_typography(level + '-sparse', raw_sparse_style))
-
-        if config.BODY_DENSE:
-            raw_dense_style = dict(raw_base_style)
-            raw_dense_style['line_height'] -= \
-                config.BODY_DENSE_LINE_HEIGHT_DECREMENT
-            if config.BODY_TABULAR:
-                raw_dense_style['open_type'] = params.OPEN_TYPE['tabular']
-
-            typography['typography'][style].update(
-                tools.make_typography(level + '-dense', raw_dense_style))
+                    option_style['open_type'] = category_dict[option][
+                        'open_type']
+                    typography[style].update(tools.make_typography(
+                        f'{size}-{option}', option_style))
 
 
 # Dumping tokens for FT
-
 with open(os.path.join(dirname, path_out), 'w') as outfile:
     json.dump(typography, outfile)

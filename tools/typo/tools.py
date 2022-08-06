@@ -5,7 +5,7 @@ STYLE = {
     'typeface': None,
     'font_size': None,
     'line_height': None,
-    'letter_spacing': None,
+    'tracking': None,
     'paragraph_spacing': None,
     'text_case': None,
     'open_type': None,
@@ -28,7 +28,7 @@ FT_TYPES = {
         'name': 'fontSize',
         'type': 'fontSizes',
     },
-    'letter_spacing': {
+    'tracking': {
         'name': 'letterSpacing',
         'type': 'letterSpacing',
     },
@@ -96,7 +96,16 @@ def make_typography(level, raw_styles):
 
 # TOOLS FOR GENERATING TOKENS
 
-def get_sizes(base_font_size, base_line_height, increment, size):
-    font_size = base_font_size + increment * size
-    line_height = base_line_height + increment * size * 2
+def get_sizes(base_font_size, base_line_height, fs_increment, lh_increment,
+              level):
+    font_size = base_font_size + fs_increment * level
+    line_height = base_line_height + lh_increment * level
     return int(font_size), int(line_height)
+
+
+# HELPER TOOLS
+def get_value(storage, index):
+    if type(storage) != list:
+        return storage
+    else:
+        return storage[index]
