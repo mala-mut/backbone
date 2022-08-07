@@ -45,12 +45,9 @@ TYPOGRAPHY_STRUCTURE = {
             'body': {
                 'typeface': 'Medium',
             },
-            'body-accent': {
-                'typeface': 'Bold',
-            },
         },
         'sizes': {
-            'size_pairs': [400, 500],
+            'size_pairs': [400, 500, 600],
             'font_size': 16,
             'line_height': 24,
             'paragraph_spacing': 8,
