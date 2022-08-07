@@ -50,7 +50,7 @@ TYPOGRAPHY_STRUCTURE = {
             },
         },
         'sizes': {
-            'size_pairs': [400, 500, 600],
+            'size_pairs': [400, 500],
             'font_size': 16,
             'line_height': 24,
             'paragraph_spacing': 8,
@@ -63,13 +63,13 @@ TYPOGRAPHY_STRUCTURE = {
             'open_type': []
         },
         'dense': {
-            'enabled': True,
+            'enabled': False,
             'line_height_increment': -4,
             'ignore_sizes': [],
             'open_type': []
         },
         'sparse': {
-            'enabled': True,
+            'enabled': False,
             'line_height_increment': 4,
             'ignore_sizes': [],
             'open_type': []
@@ -83,7 +83,7 @@ TYPOGRAPHY_STRUCTURE = {
             },
         },
         'sizes': {
-            'size_pairs': [400, 500, 600],
+            'size_pairs': [400, 500],
             'font_size': 16,
             'line_height': 24,
             'paragraph_spacing': 8,
