@@ -58,6 +58,9 @@ TYPOGRAPHY_STRUCTURE = {
             'body': {
                 'typeface': 'Medium',
             },
+            'body-accent': {
+                'typeface': 'Bold',
+            },
         },
         'sizes': {
             'size_pairs': [400, 500, 600],
@@ -73,13 +76,13 @@ TYPOGRAPHY_STRUCTURE = {
             'open_type': []
         },
         'dense': {
-            'enabled': False,
+            'enabled': True,
             'line_height_increment': -4,
             'ignore_sizes': [],
             'open_type': []
         },
         'sparse': {
-            'enabled': False,
+            'enabled': True,
             'line_height_increment': 4,
             'ignore_sizes': [],
             'open_type': []
