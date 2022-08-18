@@ -17,9 +17,6 @@ for category, category_dict in config.TYPOGRAPHY_STRUCTURE.items():
 
     # initializing base_style with 500 params
     base_style['font'] = category_dict['font']
-    base_style['paragraph_spacing'] = category_dict['sizes'][
-        'paragraph_spacing'] * category_dict['sizes'][
-        'paragraph_spacing_increment']
     base_style['text_case'] = category_dict['sizes']['text_case']
     base_style['text_decoration'] = category_dict['sizes']['text_decoration']
     base_style['open_type'] = category_dict['sizes']['open_type']
@@ -32,8 +29,9 @@ for category, category_dict in config.TYPOGRAPHY_STRUCTURE.items():
 
             # Getting line heights, font sizes and increments
             size_values = []
-            params = ('font_size', 'line_height', 'font_size_increment',
-                      'line_height_increment')
+            params = ('font_size', 'line_height', 'paragraph_spacing',
+                      'font_size_increment', 'line_height_increment',
+                      'paragraph_spacing_increment')
 
             for param in params:
                 size_values.append(tools.get_value(category_dict['sizes'][
@@ -44,8 +42,8 @@ for category, category_dict in config.TYPOGRAPHY_STRUCTURE.items():
                 'tracking'], i)
 
             # Getting values for font size and line height
-            base_style['font_size'], base_style['line_height'] = \
-                tools.get_sizes(*size_values, level)
+            base_style['font_size'], base_style['line_height'], base_style[
+                'paragraph_spacing'] = tools.get_sizes(*size_values, level)
 
             # Generating FT for all values
             try:

@@ -96,11 +96,13 @@ def make_typography(level, raw_styles):
 
 # TOOLS FOR GENERATING TOKENS
 
-def get_sizes(base_font_size, base_line_height, fs_increment, lh_increment,
+def get_sizes(base_font_size, base_line_height,
+              base_paragraph_spacing, fs_increment, lh_increment, ps_increment,
               level):
     font_size = base_font_size + fs_increment * level
     line_height = base_line_height + lh_increment * level
-    return int(font_size), int(line_height)
+    paragraph_spacing = base_paragraph_spacing + ps_increment * level
+    return int(font_size), int(line_height), int(paragraph_spacing)
 
 
 # HELPER TOOLS
