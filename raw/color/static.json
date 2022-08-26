@@ -1,0 +1,80 @@
+{
+  "text": {
+    "primary-on-light": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "secondary-on-light": {
+      "value": "#00000073",
+      "type": "color"
+    },
+    "tertiary-on-light": {
+      "value": "#00000033",
+      "type": "color"
+    },
+    "primary-on-dark": {
+      "value": "#FFFFFF",
+      "type": "color"
+    },
+    "secondary-on-dark": {
+      "value": "#FFFFFF73",
+      "type": "color"
+    },
+    "tertiary-on-dark": {
+      "value": "#FFFFFF33",
+      "type": "color"
+    }
+  },
+  "graphic": {
+    "primary-on-light": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "secondary-on-light": {
+      "value": "#00000073",
+      "type": "color"
+    },
+    "tertiary-on-light": {
+      "value": "#00000033",
+      "type": "color"
+    },
+    "primary-on-dark": {
+      "value": "#FFFFFF",
+      "type": "color"
+    },
+    "secondary-on-dark": {
+      "value": "#FFFFFF73",
+      "type": "color"
+    },
+    "tertiary-on-dark": {
+      "value": "#FFFFFF33",
+      "type": "color"
+    }
+  },
+  "background": {
+    "primary-on-light": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "secondary-on-light": {
+      "value": "#00000073",
+      "type": "color"
+    },
+    "tertiary-on-light": {
+      "value": "#00000033",
+      "type": "color"
+    },
+    "primary-on-dark": {
+      "value": "#FFFFFF",
+      "type": "color"
+    },
+    "secondary-on-dark": {
+      "value": "#FFFFFF73",
+      "type": "color"
+    },
+    "tertiary-on-dark": {
+      "value": "#FFFFFF33",
+      "type": "color"
+    }
+  }
+}

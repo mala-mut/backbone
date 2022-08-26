@@ -81,11 +81,11 @@
       "type": "color"
     },
     "secondary": {
-      "value": "#f3f3f3",
+      "value": "#ffffff",
       "type": "color"
     },
     "tertiary": {
-      "value": "#ebebeb",
+      "value": "#f3f3f3",
       "type": "color"
     },
     "quaternary": {
