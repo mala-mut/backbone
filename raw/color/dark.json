@@ -1,15 +1,15 @@
 {
   "text": {
     "primary": {
-      "value": "#000000",
+      "value": "#FFFFFF",
       "type": "color"
     },
     "secondary": {
-      "value": "#00000073",
+      "value": "#FFFFFF73",
       "type": "color"
     },
     "tertiary": {
-      "value": "#00000033",
+      "value": "#FFFFFF33",
       "type": "color"
     },
     "accent-primary": {
@@ -39,15 +39,15 @@
   },
   "graphic": {
     "primary": {
-      "value": "#000000",
+      "value": "#FFFFFF",
       "type": "color"
     },
     "secondary": {
-      "value": "#00000073",
+      "value": "#FFFFFF73",
       "type": "color"
     },
     "tertiary": {
-      "value": "#00000033",
+      "value": "#FFFFFF33",
       "type": "color"
     },
     "accent-primary": {
