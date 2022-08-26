@@ -86,7 +86,7 @@ TYPOGRAPHY_STRUCTURE = {
             'size_pairs': [300, 400, 500, 600],
             'font_size': 18,
             'line_height': 24,
-            'paragraph_spacing': 8,
+            'paragraph_spacing': 0,
             'tracking': ['-0.09 px', '-0.18 px', '-0.26 px', '-0.33 px'],
             'font_size_increment': 2,
             'line_height_increment': 4,
