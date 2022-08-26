@@ -77,15 +77,15 @@
   },
   "background": {
     "primary": {
-      "value": "#ffffff",
+      "value": "#000000",
       "type": "color"
     },
     "secondary": {
-      "value": "#f3f3f3",
+      "value": "#1a1a1a",
       "type": "color"
     },
     "tertiary": {
-      "value": "#ebebeb",
+      "value": "#2b2b2b",
       "type": "color"
     },
     "accent-primary": {
