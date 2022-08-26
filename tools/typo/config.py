@@ -90,7 +90,7 @@ TYPOGRAPHY_STRUCTURE = {
             'tracking': ['-0.09 px', '-0.18 px', '-0.26 px', '-0.33 px'],
             'font_size_increment': 2,
             'line_height_increment': 4,
-            'paragraph_spacing_increment': 4,
+            'paragraph_spacing_increment': 0,
             'text_case': 'none',
             'text_decoration': 'none',
             'open_type': []
