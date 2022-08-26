@@ -2,6 +2,7 @@
   "tokenSetOrder": [
     "typography",
     "color/light",
-    "color/dark"
+    "color/dark",
+    "color/static"
   ]
 }

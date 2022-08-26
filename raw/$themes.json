@@ -18,5 +18,16 @@
       "color/dark": "enabled"
     },
     "$figmaStyleReferences": {}
+  },
+  {
+    "id": "8ff83c5b5414ab466b9bcad93a497b28161911fc",
+    "name": "static",
+    "selectedTokenSets": {
+      "typography": "enabled",
+      "color/light": "disabled",
+      "color/dark": "disabled",
+      "color/static": "enabled"
+    },
+    "$figmaStyleReferences": {}
   }
 ]
