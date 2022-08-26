@@ -1,0 +1,98 @@
+{
+  "Text": {
+    "Primary": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "Secondary": {
+      "value": "#00000073",
+      "type": "color"
+    },
+    "Tertiary": {
+      "value": "#00000033",
+      "type": "color"
+    },
+    "Accent": {
+      "value": "#005bff",
+      "type": "color"
+    },
+    "Violet": {
+      "value": "#5b51de",
+      "type": "color"
+    },
+    "Blue": {
+      "value": "#0096ff",
+      "type": "color"
+    },
+    "Green": {
+      "value": "#10c44c",
+      "type": "color"
+    },
+    "Orange": {
+      "value": "#ffa800",
+      "type": "color"
+    },
+    "Red": {
+      "value": "#f53c14",
+      "type": "color"
+    }
+  },
+  "Background": {
+    "Primary": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "Secondary": {
+      "value": "#f3f3f3",
+      "type": "color"
+    },
+    "Tertiary": {
+      "value": "#ebebeb",
+      "type": "color"
+    },
+    "Neutral": {
+      "value": "#a7a7a7",
+      "type": "color"
+    },
+    "Primary-Inverted": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "Secondary-Inverted": {
+      "value": "#1a1a1a",
+      "type": "color"
+    },
+    "Tertiary-Inverted": {
+      "value": "#2b2b2b",
+      "type": "color"
+    },
+    "Accent": {
+      "value": "#005bff",
+      "type": "color"
+    },
+    "Violet": {
+      "value": "#5b51de",
+      "type": "color"
+    },
+    "Blue": {
+      "value": "#0096ff",
+      "type": "color"
+    },
+    "Green": {
+      "value": "#10c44c",
+      "type": "color"
+    },
+    "Orange": {
+      "value": "#ffa800",
+      "type": "color"
+    },
+    "Red": {
+      "value": "#f53c14",
+      "type": "color"
+    },
+    "Pink": {
+      "value": "#fc7ca2",
+      "type": "color"
+    }
+  }
+}
