@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "id": "ba0cf43f92f04414699bbe7607a68c6768b3e1d8",
+    "name": "light",
+    "selectedTokenSets": {
+      "typography": "enabled",
+      "color/light": "enabled",
+      "color/dark": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "a8f92966ec8702fd4a44e15774d1e35ae0da23b2",
+    "name": "dark",
+    "selectedTokenSets": {
+      "typography": "enabled",
+      "color/light": "disabled",
+      "color/dark": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]
