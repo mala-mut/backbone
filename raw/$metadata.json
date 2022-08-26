@@ -1,6 +1,7 @@
 {
   "tokenSetOrder": [
     "typography",
-    "color/light"
+    "color/light",
+    "color/dark"
   ]
 }
