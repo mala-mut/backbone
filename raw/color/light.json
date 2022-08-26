@@ -88,6 +88,10 @@
       "value": "#ebebeb",
       "type": "color"
     },
+    "quaternary": {
+      "value": "#FFFFFF33",
+      "type": "color"
+    },
     "accent-primary": {
       "value": "#5b51de",
       "type": "color"
