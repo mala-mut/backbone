@@ -39,15 +39,15 @@
   },
   "graphic": {
     "primary": {
-      "value": "#FFFFFF",
+      "value": "#000000",
       "type": "color"
     },
     "secondary": {
-      "value": "#f3f3f3",
+      "value": "#00000073",
       "type": "color"
     },
     "tertiary": {
-      "value": "#ebebeb",
+      "value": "#00000033",
       "type": "color"
     },
     "accent-primary": {
