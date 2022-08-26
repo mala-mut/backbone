@@ -75,4 +75,37 @@ TYPOGRAPHY_STRUCTURE = {
             'open_type': []
         },
     },
+    'compact': {
+        'font': FONT_FAMILIES[0],
+        'styles': {
+            'compact': {
+                'typeface': 'Regular',
+            },
+        },
+        'sizes': {
+            'size_pairs': [300, 400, 500, 600],
+            'font_size': 18,
+            'line_height': 24,
+            'paragraph_spacing': 8,
+            'tracking': ['-0.09 px', '-0.18 px', '-0.26 px', '-0.33 px'],
+            'font_size_increment': 2,
+            'line_height_increment': 4,
+            'paragraph_spacing_increment': 4,
+            'text_case': 'none',
+            'text_decoration': 'none',
+            'open_type': []
+        },
+        'dense': {
+            'enabled': False,
+            'line_height_increment': -4,
+            'ignore_sizes': [],
+            'open_type': []
+        },
+        'sparse': {
+            'enabled': False,
+            'line_height_increment': 4,
+            'ignore_sizes': [],
+            'open_type': []
+        },
+    },
 }
